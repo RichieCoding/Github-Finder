@@ -32,6 +32,7 @@ class User extends Component {
     } = this.props.user;
 
     const { loading } = this.props;
+    
 
     if (loading) return <Spinner />;
 
